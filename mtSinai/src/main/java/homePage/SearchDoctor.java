@@ -14,6 +14,7 @@ import java.util.List;
 
 
 public class SearchDoctor extends BaseUtil {
+
     @FindBy(how = How.XPATH, using ="//a[@class='hidden-xs dropdown']//i[@class='fa fa-search']")
     public static WebElement searchKey;
     @FindBy(how = How.XPATH, using ="//div[@id='search-input-mega']//input[@name='q']")
@@ -38,8 +39,9 @@ public class SearchDoctor extends BaseUtil {
         searchKey.click();
     }
     public void putValueInSearchField(String value){
-        searchField.sendKeys(value);
-    }
+        searchField.sendKeys(value);}
+    public void putValueInSearchFieldWithENTER(String value){
+        searchField.sendKeys(value, Keys.ENTER);}
     public void submitSearchButton(){
         submitButton.click();
     }
@@ -53,11 +55,11 @@ public class SearchDoctor extends BaseUtil {
     public void searchDoctorsBySubmitButton()throws IOException {
         List<String> doctorsList = getDoctorsList();
         for(int i=0; i<doctorsList.size(); i++) {
-            waitToBeVisible();  //need to be here
-            //clickSearchKey();  //no need, if given test failed
+            //waitToBeVisible();  //need to be here
+            clickSearchKey();  //no need, if given test failed
             putValueInSearchField(doctorsList.get(i));
             submitSearchButton();
-            clearInput();
+            //clearInput();
         }
     }
     public void searchDoctorsByENTERKeyword()throws InterruptedException, IOException {
@@ -65,8 +67,9 @@ public class SearchDoctor extends BaseUtil {
         for(String st: doctorsList) {
             waitToBeVisible();  //need to be here
             clickSearchKey();  //no need
-            //putValueInSearchField().sendKeys(st, Keys.ENTER);  //ki hobe?
-            clearInput();
+            //searchField.sendKeys(st, Keys.ENTER);
+            putValueInSearchFieldWithENTER(st);  //ki hobe?
+            //clearInput();
         }
     }
 }

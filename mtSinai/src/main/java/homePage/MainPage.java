@@ -28,7 +28,7 @@ public class MainPage extends BaseUtil {
     public static WebElement ourLocations;
     @FindBy (linkText = "Patient Care")
     public static WebElement patientCare;
-    @FindBy (linkText = "About Us")
+    @FindBy (xpath = "//a[contains(text(),'About Us')]")
     public static WebElement aboutUs;
     @FindBy (linkText = "SEARCH")
     public static WebElement search;

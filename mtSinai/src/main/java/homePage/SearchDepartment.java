@@ -49,6 +49,7 @@ public class SearchDepartment extends BaseUtil {
     public static void setSubmitButton(WebElement submitButton) {
         SearchDepartment.submitButton = submitButton;
     }
+
     public static void waitToBeVisible(){
         TestLogger.log(Search.class.getSimpleName() + ": " + convertToString(new Object(){}.getClass().getEnclosingMethod().getName()));
         searchKey.click();
@@ -57,20 +58,20 @@ public class SearchDepartment extends BaseUtil {
     public void searchDepartmentBySubmitButton()throws IOException {
         List<String> departmentList = getDepartmentList();
         for(int i=0; i<departmentList.size(); i++) {
-            waitToBeVisible();
-            //getSearchKey();
+            //waitToBeVisible();
+            getSearchKey().click();
             getSearchField().sendKeys(departmentList.get(i));
-            getSubmitButton();
-            getSearchField().clear();
+            getSubmitButton().click();
+            //getSearchField().clear();
         }
     }
     public void searchDepartmentByENTERKeyword()throws InterruptedException, IOException {
         List<String> departmentList = getDepartmentList();
         for(String st: departmentList) {
-            waitToBeVisible();
-            getSearchKey();
+            //waitToBeVisible();
+            getSearchKey().click();
             getSearchField().sendKeys(st, Keys.ENTER);
-            getSearchField().clear();
+            //getSearchField().clear();
         }
     }
 }

@@ -30,7 +30,7 @@ public class Search extends BaseUtil{
         public void searchBySubmitButton(String searchKeys){
             TestLogger.log(getClass().getSimpleName() + ": " + convertToString(new Object(){}.getClass().getEnclosingMethod().getName()));
             waitToBeVisible();
-            searchField.sendKeys(searchKeys);
+            searchField.sendKeys(searchKeys);//have question
             submitButton.click();
         }
     }

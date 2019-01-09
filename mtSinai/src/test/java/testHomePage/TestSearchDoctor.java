@@ -4,10 +4,7 @@ import homePage.SearchDoctor;
 import org.openqa.selenium.support.PageFactory;
 import org.testng.annotations.Test;
 import reporting.TestLogger;
-
-
 import java.io.IOException;
-
 import static base.BaseUtil.convertToString;
 
 public class TestSearchDoctor extends SearchDoctor {
