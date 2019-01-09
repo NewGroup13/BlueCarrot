@@ -11,14 +11,14 @@ import java.util.List;
 public class AboutUsHoverOver extends BaseUtil {
 
     @FindBy (xpath = "//a[contains(text(),'About Us')]")
-    public static WebElement aboutUs;
+    public static WebElement about;
 
     public void checkAboutUs() throws InterruptedException {
         TestLogger.log(getClass().getSimpleName() + ": " + convertToString(new Object() {}.getClass().getEnclosingMethod().getName()));
-        Actions actions = new Actions(driver);
-        actions.moveToElement(aboutUs).;  //click hobe?
+        //Actions actions = new Actions(driver);
+        builder.moveToElement(about).perform();  //click hobe?
         sleepFor(5);
-        System.out.println(aboutUs.getText());
+        System.out.println(about.getText());
 
     }
     /*public List<String> getTextOfAboutUs() throws InterruptedException {

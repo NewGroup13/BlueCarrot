@@ -36,8 +36,8 @@ import java.util.List;
 import java.util.concurrent.TimeUnit;
 
 public class BaseUtil {
-    public WebDriver driver = null;
-    public Actions builder = null; //hoover over
+    public static WebDriver driver = null;
+    public static Actions builder = null; //hoover over
     public static WebDriverWait wait = null ;  //explicit wait
     public String browserstack_username= "";
     public String browserstack_accesskey = "";
@@ -66,16 +66,18 @@ public class BaseUtil {
         driver.manage().timeouts().pageLoadTimeout(25, TimeUnit.SECONDS);
         driver.get(url);
         //driver.manage().window().maximize();
+
     }
     public WebDriver getLocalDriver(@Optional("OS X") String OS, String browserName){
         if(browserName.equalsIgnoreCase("chrome")){
             if(OS.equalsIgnoreCase("OS X")){
-                System.setProperty("webdriver.chrome.driver", "../Generic/browserDriver/chromedriver");
+                System.setProperty("webdriver.chrome.driver","../Generic/browserDriver/chromedriver"); //this one used
             }else if(OS.equalsIgnoreCase("Windows")){
-                System.setProperty("webdriver.chrome.driver", "../Generic/browserDriver/chromedriver.exe");
+                System.setProperty("webdriver.chrome.driver", "..\\Generic\\browserDriver\\chromedriver.exe");
             }
             driver = new ChromeDriver();
-        } else if(browserName.equalsIgnoreCase("chrome-options")){
+            builder = new Actions(driver);
+        } else if(browserName.equalsIgnoreCase("chrome-options")){ //headless / no gui
             ChromeOptions options = new ChromeOptions();
             options.addArguments("--disable-notifications");
             if(OS.equalsIgnoreCase("OS X")){
@@ -85,7 +87,7 @@ public class BaseUtil {
             }
             driver = new ChromeDriver(options);
             driver.manage().deleteAllCookies();
-            builder = new Actions(driver);
+            //builder = new Actions(driver);
         }
 
         else if(browserName.equalsIgnoreCase("firefox")){
