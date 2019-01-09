@@ -1,93 +1,72 @@
 package homePage;
 
 import base.BaseUtil;
-import org.openqa.selenium.By;
 import org.openqa.selenium.Keys;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.How;
+import org.openqa.selenium.support.ui.ExpectedConditions;
+import reporting.TestLogger;
+
 import java.io.IOException;
 import java.util.ArrayList;
 import java.util.List;
 
+
 public class SearchDoctor extends BaseUtil {
-
-
     @FindBy(how = How.XPATH, using ="//a[@class='hidden-xs dropdown']//i[@class='fa fa-search']")
     public static WebElement searchKey;
-
     @FindBy(how = How.XPATH, using ="//div[@id='search-input-mega']//input[@name='q']")
-    public static WebElement searchInput;
-
+    public static WebElement searchField;
     @FindBy(how = How.XPATH, using ="//div[@class='dropdown-menu mega-dropdown-menu search']//button[@class='btn btn-large']")
     public static WebElement submitButton;
 
+    public List<String> getDoctorsList(){
+        List<String> doctorsList = new ArrayList<String>();
+        doctorsList.add("Valentin Fuster, MD, PhD");
+        doctorsList.add("Usman Baber, MD");
+        doctorsList.add("Jeffrey Bander, MD");
+        doctorsList.add("Nitin Barman, MD");
+        doctorsList.add("Johanna Contreras, MD");
+        doctorsList.add("Lori B Croft, MD");
+        doctorsList.add("George Dangas, MD, PhD");
+        doctorsList.add("Asaad A Khan, MBBS");
 
-
-    public WebElement getSearchKey() {
-        return searchKey;
+        return doctorsList;
     }
-    public WebElement getSearchInput() {
-        return searchInput;
+    public void clickSearchKey(){
+        searchKey.click();
     }
-    public WebElement getSubmitButton() {
-        return submitButton;
-    }
-
-    public void ClickSearchKey(){
-        getSearchKey().click();
-    }
-    public void searchFor(String value){
-        getSearchInput().sendKeys(value);
+    public void putValueInSearchField(String value){
+        searchField.sendKeys(value);
     }
     public void submitSearchButton(){
-        getSubmitButton().click();
+        submitButton.click();
     }
-    public void clearInput(){
-        getSearchInput().clear();
-    }
+    public void clearInput(){ searchField.clear(); }
 
-    public void searchDoctorsAndSubmitButton()throws IOException {
-        List<String> list = getItemValue();
-        for(int i=0; i<list.size(); i++) {
-            searchFor(list.get(i));
+    public static void waitToBeVisible(){
+        TestLogger.log(Search.class.getSimpleName() + ": " + convertToString(new Object(){}.getClass().getEnclosingMethod().getName()));
+        searchKey.click();
+        wait.until(ExpectedConditions.visibilityOf(searchField));
+    }
+    public void searchDoctorsBySubmitButton()throws IOException {
+        List<String> doctorsList = getDoctorsList();
+        for(int i=0; i<doctorsList.size(); i++) {
+            waitToBeVisible();  //need to be here
+            //clickSearchKey();  //no need, if given test failed
+            putValueInSearchField(doctorsList.get(i));
             submitSearchButton();
-            //validate books data
             clearInput();
         }
     }
-    public void setSearchKey(WebElement searchKeyField) {
-        this.searchKey = searchKeyField;
-    }
-
-//    public WebElement getSearchInputField() {
-//        return searchInput;
-//    }
-//
-//    public void setSearchInputField(WebElement searchInputField) {
-//        this.searchInput = searchInputField;
-//    }
-
-    public void searchItems()throws InterruptedException, IOException {
-        List<String> itemList = getItemValue();
-        for(String st: itemList) {
-            getSearchKey().click();
-            getSearchInput().sendKeys(st, Keys.ENTER);
-            getSearchInput().clear();
+    public void searchDoctorsByENTERKeyword()throws InterruptedException, IOException {
+        List<String> doctorsList = getDoctorsList();
+        for(String st: doctorsList) {
+            waitToBeVisible();  //need to be here
+            clickSearchKey();  //no need
+            //putValueInSearchField().sendKeys(st, Keys.ENTER);  //ki hobe?
+            clearInput();
         }
-    }
-
-    public List<String> getItemValue(){
-        List<String> itemsList = new ArrayList<String>();
-        itemsList.add("Java Book");
-        itemsList.add("Selenium Book");
-        itemsList.add("Laptop");
-        itemsList.add("Honey");
-        itemsList.add("Toothpaste");
-        itemsList.add("ear-ring");
-        itemsList.add("ps4games");
-        itemsList.add("macAir");
-
-        return itemsList;
     }
 }

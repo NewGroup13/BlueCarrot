@@ -38,7 +38,7 @@ import java.util.concurrent.TimeUnit;
 public class BaseUtil {
     public WebDriver driver = null;
     public Actions builder = null; //hoover over
-    public WebDriverWait wait = null ;  //explicit wait
+    public static WebDriverWait wait = null ;  //explicit wait
     public String browserstack_username= "";
     public String browserstack_accesskey = "";
     public String saucelabs_username = "";
@@ -96,7 +96,6 @@ public class BaseUtil {
                 System.setProperty("webdriver.gecko.driver", "../Generic/browser-driver/geckodriver.exe");
             }
             driver = new FirefoxDriver();
-
         } else if(browserName.equalsIgnoreCase("ie")) {
             System.setProperty("webdriver.ie.driver", "../Generic/browser-driver/IEDriverServer.exe");
             driver = new InternetExplorerDriver();
@@ -149,7 +148,6 @@ public class BaseUtil {
         for (String group : result.getMethod().getGroups()) {
             ExtentTestManager.getTest().assignCategory(group);
         }
-
         if (result.getStatus() == 1) {
             ExtentTestManager.getTest().log(LogStatus.PASS, "Test Passed");
         } else if (result.getStatus() == 2) {
@@ -166,7 +164,6 @@ public class BaseUtil {
     }
 
     public static void captureScreenshot(WebDriver driver, String screenshotName){
-
         DateFormat df = new SimpleDateFormat("(MM.dd.yyyy-HH:mma)");
         Date date = new Date();
         df.format(date);
@@ -188,7 +185,6 @@ public class BaseUtil {
         calendar.setTimeInMillis(millis);
         return calendar.getTime();
     }
-
     public void waitToBeVisible(WebElement element){
         wait.until(ExpectedConditions.visibilityOf(element));
     }
