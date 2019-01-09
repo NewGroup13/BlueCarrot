@@ -3,16 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="7a8a109a-fdc8-4532-93a5-b55da8e9a8c8" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Generic/src/main/java/base/BaseUtil.java" beforeDir="false" afterPath="$PROJECT_DIR$/Generic/src/main/java/base/BaseUtil.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Generic/target/classes/base/BaseUtil.class" beforeDir="false" afterPath="$PROJECT_DIR$/Generic/target/classes/base/BaseUtil.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mtSinai/Extent-Report/ExtentReport.html" beforeDir="false" afterPath="$PROJECT_DIR$/mtSinai/Extent-Report/ExtentReport.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mtSinai/src/main/java/homePage/AboutUsHoverOver.java" beforeDir="false" afterPath="$PROJECT_DIR$/mtSinai/src/main/java/homePage/AboutUsHoverOver.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mtSinai/target/classes/homePage/AboutUsHoverOver.class" beforeDir="false" afterPath="$PROJECT_DIR$/mtSinai/target/classes/homePage/AboutUsHoverOver.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mtSinai/target/test-classes/testHomePage/TestAboutUsHoverOver.class" beforeDir="false" afterPath="$PROJECT_DIR$/mtSinai/target/test-classes/testHomePage/TestAboutUsHoverOver.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mtSinai/target/test-classes/testHomePage/TestMainPage.class" beforeDir="false" afterPath="$PROJECT_DIR$/mtSinai/target/test-classes/testHomePage/TestMainPage.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mtSinai/target/test-classes/testHomePage/TestSearch.class" beforeDir="false" afterPath="$PROJECT_DIR$/mtSinai/target/test-classes/testHomePage/TestSearch.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mtSinai/target/test-classes/testHomePage/TestSearchDepartment.class" beforeDir="false" afterPath="$PROJECT_DIR$/mtSinai/target/test-classes/testHomePage/TestSearchDepartment.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mtSinai/target/test-classes/testHomePage/TestSearchDoctor.class" beforeDir="false" afterPath="$PROJECT_DIR$/mtSinai/target/test-classes/testHomePage/TestSearchDoctor.class" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -74,7 +64,7 @@
     <session id="1361198893">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="2" />
+          <entry key="project.closed" value="3" />
           <entry key="project.open.time.0" value="2" />
           <entry key="project.open.time.1" value="1" />
           <entry key="project.opened" value="3" />
@@ -99,13 +89,13 @@
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
           <entry key="dummy" value="21" />
-          <entry key="java" value="1524" />
+          <entry key="java" value="1542" />
           <entry key="xml" value="4" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="JAVA" value="1524" />
+          <entry key="JAVA" value="1542" />
           <entry key="PLAIN_TEXT" value="21" />
           <entry key="XML" value="4" />
         </counts>
@@ -114,11 +104,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/mtSinai/src/main/java/homePage/AboutUsHoverOver.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="137">
-              <caret line="17" column="10" selection-start-line="17" selection-start-column="10" selection-end-line="17" selection-end-column="10" />
+            <state relative-caret-position="340">
+              <caret line="20" column="32" lean-forward="true" selection-start-line="20" selection-start-column="32" selection-end-line="20" selection-end-column="32" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -130,12 +120,12 @@
         <entry file="file://$PROJECT_DIR$/Generic/src/main/java/base/BaseUtil.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="131">
-              <caret line="73" column="89" selection-start-line="73" selection-start-column="89" selection-end-line="73" selection-end-column="89" />
+              <caret line="73" column="64" selection-start-line="73" selection-start-column="64" selection-end-line="73" selection-end-column="64" />
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/mtSinai/src/test/java/testHomePage/TestAboutUsHoverOver.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="214">
@@ -212,8 +202,8 @@
         <option value="$PROJECT_DIR$/mtSinai/src/main/java/homePage/SearchDepartment.java" />
         <option value="$PROJECT_DIR$/mtSinai/src/main/java/homePage/SearchDoctor.java" />
         <option value="$PROJECT_DIR$/mtSinai/src/test/java/testHomePage/TestAboutUsHoverOver.java" />
-        <option value="$PROJECT_DIR$/mtSinai/src/main/java/homePage/AboutUsHoverOver.java" />
         <option value="$PROJECT_DIR$/Generic/src/main/java/base/BaseUtil.java" />
+        <option value="$PROJECT_DIR$/mtSinai/src/main/java/homePage/AboutUsHoverOver.java" />
       </list>
     </option>
   </component>
@@ -393,7 +383,7 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1547056721849" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1547056864235" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="project.structure.last.edited" value="Project" />
     <property name="project.structure.proportion" value="0.0" />
@@ -550,24 +540,6 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="TestAboutUsHoverOver_testAboutUs - 2019.01.09 at 12h 38m 08s.xml">
-      <configuration name="TestAboutUsHoverOver.testAboutUs" configurationId="TestNG" />
-    </history-entry>
-    <history-entry file="TestAboutUsHoverOver_testAboutUs - 2019.01.09 at 12h 44m 24s.xml">
-      <configuration name="TestAboutUsHoverOver.testAboutUs" configurationId="TestNG" />
-    </history-entry>
-    <history-entry file="TestAboutUsHoverOver_testAboutUs - 2019.01.09 at 12h 45m 19s.xml">
-      <configuration name="TestAboutUsHoverOver.testAboutUs" configurationId="TestNG" />
-    </history-entry>
-    <history-entry file="TestAboutUsHoverOver_testAboutUs - 2019.01.09 at 12h 45m 41s.xml">
-      <configuration name="TestAboutUsHoverOver.testAboutUs" configurationId="TestNG" />
-    </history-entry>
-    <history-entry file="TestAboutUsHoverOver_testAboutUs - 2019.01.09 at 12h 46m 50s.xml">
-      <configuration name="TestAboutUsHoverOver.testAboutUs" configurationId="TestNG" />
-    </history-entry>
-    <history-entry file="TestAboutUsHoverOver_testAboutUs - 2019.01.09 at 12h 47m 41s.xml">
-      <configuration name="TestAboutUsHoverOver.testAboutUs" configurationId="TestNG" />
-    </history-entry>
     <history-entry file="TestAboutUsHoverOver_testAboutUs - 2019.01.09 at 12h 49m 48s.xml">
       <configuration name="TestAboutUsHoverOver.testAboutUs" configurationId="TestNG" />
     </history-entry>
@@ -580,12 +552,29 @@
     <history-entry file="TestAboutUsHoverOver_testAboutUs - 2019.01.09 at 12h 53m 48s.xml">
       <configuration name="TestAboutUsHoverOver.testAboutUs" configurationId="TestNG" />
     </history-entry>
+    <history-entry file="TestAboutUsHoverOver_testAboutUs - 2019.01.09 at 12h 54m 55s.xml">
+      <configuration name="TestAboutUsHoverOver.testAboutUs" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="TestAboutUsHoverOver_testAboutUs - 2019.01.09 at 12h 55m 32s.xml">
+      <configuration name="TestAboutUsHoverOver.testAboutUs" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="TestAboutUsHoverOver_testAboutUs - 2019.01.09 at 12h 56m 31s.xml">
+      <configuration name="TestAboutUsHoverOver.testAboutUs" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="TestAboutUsHoverOver_testAboutUs - 2019.01.09 at 12h 56m 54s.xml">
+      <configuration name="TestAboutUsHoverOver.testAboutUs" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="TestAboutUsHoverOver_testAboutUs - 2019.01.09 at 12h 57m 20s.xml">
+      <configuration name="TestAboutUsHoverOver.testAboutUs" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="TestAboutUsHoverOver_testAboutUs - 2019.01.09 at 12h 58m 57s.xml">
+      <configuration name="TestAboutUsHoverOver.testAboutUs" configurationId="TestNG" />
+    </history-entry>
   </component>
   <component name="ToolWindowManager">
     <frame x="6" y="23" width="1378" height="829" extended-state="0" />
-    <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.18263473" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.18263473" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -594,12 +583,12 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32971507" />
-      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.2862958" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.2862958" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.39891452" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="bottom" id="Terminal" order="7" weight="0.32971507" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="7" visible="true" weight="0.32971507" />
       <window_info anchor="bottom" id="Event Log" order="8" side_tool="true" />
       <window_info anchor="bottom" id="Version Control" order="9" />
       <window_info anchor="bottom" id="Messages" order="10" weight="0.32971507" />
@@ -909,10 +898,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/mtSinai/src/main/java/homePage/AboutUsHoverOver.java">
+    <entry file="file://$PROJECT_DIR$/mtSinai/src/test/java/testHomePage/TestAboutUsHoverOver.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="137">
-          <caret line="17" column="10" selection-start-line="17" selection-start-column="10" selection-end-line="17" selection-end-column="10" />
+        <state relative-caret-position="214">
+          <caret line="22" column="9" selection-start-line="22" selection-start-column="9" selection-end-line="22" selection-end-column="9" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -922,14 +911,14 @@
     <entry file="file://$PROJECT_DIR$/Generic/src/main/java/base/BaseUtil.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="131">
-          <caret line="73" column="89" selection-start-line="73" selection-start-column="89" selection-end-line="73" selection-end-column="89" />
+          <caret line="73" column="64" selection-start-line="73" selection-start-column="64" selection-end-line="73" selection-end-column="64" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/mtSinai/src/test/java/testHomePage/TestAboutUsHoverOver.java">
+    <entry file="file://$PROJECT_DIR$/mtSinai/src/main/java/homePage/AboutUsHoverOver.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="214">
-          <caret line="22" column="9" selection-start-line="22" selection-start-column="9" selection-end-line="22" selection-end-column="9" />
+        <state relative-caret-position="340">
+          <caret line="20" column="32" lean-forward="true" selection-start-line="20" selection-start-column="32" selection-end-line="20" selection-end-column="32" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
