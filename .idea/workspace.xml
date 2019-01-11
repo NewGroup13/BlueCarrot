@@ -2,57 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="7a8a109a-fdc8-4532-93a5-b55da8e9a8c8" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/CVSPharmacy/src/main/java/homePage/MainPage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/CVSPharmacy/src/test/java/testHomePage/TestMainPage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/CVSPharmacy/src/test/resources/CVSPharmacyTestRunner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Costco/src/main/java/homePage/MainPage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Costco/src/test/java/testHomePage/TestMainPage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Costco/src/test/resources/CostcoTestRunner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/FaceBook/src/main/java/homePage/MainPage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/FaceBook/src/test/java/testHomePage/TestMainPage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/FaceBook/src/test/resources/FaceBookTestRunner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SantanderBank/src/main/java/homePage/MainPage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SantanderBank/src/test/java/testHomePage/TestMainPage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SantanderBank/src/test/resources/SantanderBankTestRunner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Tmobile/src/main/java/homePage/MainPage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Tmobile/src/test/java/testHomePage/TestMainPage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Tmobile/src/test/resources/TmobileTestRunner.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Amazon/target/Amazon-1.0-SNAPSHOT.jar" beforeDir="false" afterPath="$PROJECT_DIR$/Amazon/target/Amazon-1.0-SNAPSHOT.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Amazon/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/Amazon/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Amazon/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/Amazon/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/BednBath/target/BednBath-1.0-SNAPSHOT.jar" beforeDir="false" afterPath="$PROJECT_DIR$/BednBath/target/BednBath-1.0-SNAPSHOT.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/BednBath/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/BednBath/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/BednBath/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/BednBath/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CitiBank/target/CitiBank-1.0-SNAPSHOT.jar" beforeDir="false" afterPath="$PROJECT_DIR$/CitiBank/target/CitiBank-1.0-SNAPSHOT.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CitiBank/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/CitiBank/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CitiBank/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/CitiBank/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Generic/target/Generic-1.0-SNAPSHOT.jar" beforeDir="false" afterPath="$PROJECT_DIR$/Generic/target/Generic-1.0-SNAPSHOT.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Generic/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/Generic/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Hbo/target/Hbo-1.0-SNAPSHOT.jar" beforeDir="false" afterPath="$PROJECT_DIR$/Hbo/target/Hbo-1.0-SNAPSHOT.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Hbo/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/Hbo/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Hbo/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/Hbo/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/HnM/target/HnM-1.0-SNAPSHOT.jar" beforeDir="false" afterPath="$PROJECT_DIR$/HnM/target/HnM-1.0-SNAPSHOT.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/HnM/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/HnM/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/HnM/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/HnM/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/OfficeDepot/target/OfficeDepot-1.0-SNAPSHOT.jar" beforeDir="false" afterPath="$PROJECT_DIR$/OfficeDepot/target/OfficeDepot-1.0-SNAPSHOT.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/OfficeDepot/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/OfficeDepot/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/OfficeDepot/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/OfficeDepot/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/OfficeDepot/target/test-classes/testHomePage/TestMainPage.class" beforeDir="false" afterPath="$PROJECT_DIR$/OfficeDepot/target/test-classes/testHomePage/TestMainPage.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mtSinai/Extent-Report/ExtentReport.html" beforeDir="false" afterPath="$PROJECT_DIR$/mtSinai/Extent-Report/ExtentReport.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mtSinai/src/main/java/homePage/HoverOver.java" beforeDir="false" afterPath="$PROJECT_DIR$/mtSinai/src/main/java/homePage/HoverOver.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mtSinai/src/test/java/testHomePage/TestHoverOver.java" beforeDir="false" afterPath="$PROJECT_DIR$/mtSinai/src/test/java/testHomePage/TestHoverOver.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mtSinai/target/classes/homePage/HoverOver$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/mtSinai/target/classes/homePage/HoverOver$1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mtSinai/target/classes/homePage/HoverOver$2.class" beforeDir="false" afterPath="$PROJECT_DIR$/mtSinai/target/classes/homePage/HoverOver$2.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mtSinai/target/classes/homePage/HoverOver.class" beforeDir="false" afterPath="$PROJECT_DIR$/mtSinai/target/classes/homePage/HoverOver.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mtSinai/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/mtSinai/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mtSinai/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/mtSinai/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mtSinai/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/createdFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/mtSinai/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/createdFiles.lst" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mtSinai/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/mtSinai/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mtSinai/target/mtSinai-1.0-SNAPSHOT.jar" beforeDir="false" afterPath="$PROJECT_DIR$/mtSinai/target/mtSinai-1.0-SNAPSHOT.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mtSinai/target/test-classes/testHomePage/TestHoverOver.class" beforeDir="false" afterPath="$PROJECT_DIR$/mtSinai/target/test-classes/testHomePage/TestHoverOver.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -396,7 +346,7 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1547216365686" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1547216461548" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="project.structure.last.edited" value="Project" />
     <property name="project.structure.proportion" value="0.0" />
