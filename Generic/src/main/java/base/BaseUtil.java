@@ -36,9 +36,9 @@ import java.util.List;
 import java.util.concurrent.TimeUnit;
 
 public class BaseUtil {
-    public WebDriver driver = null;
-    public Actions builder = null; //hoover over
-    public WebDriverWait wait = null ;  //explicit wait
+    public static WebDriver driver = null;
+    public static Actions builder = null; //hover over
+    public static WebDriverWait wait = null ;  //explicit wait
     public String browserstack_username= "";
     public String browserstack_accesskey = "";
     public String saucelabs_username = "";
@@ -48,11 +48,10 @@ public class BaseUtil {
 
     @BeforeMethod
     public void setUp(@Optional("false") boolean useCloudEnv, @Optional("false")String cloudEnvName,
-                      @Optional("OS X") String os, @Optional("10") String os_version, @Optional("chrome-options") String browserName, @Optional("34")
+                      @Optional("OS X") String os, @Optional("10") String os_version, @Optional("chrome") String browserName, @Optional("60")
                               String browserVersion, @Optional("http://www.mountsinai.org") String url)throws IOException {
 
         System.setProperty("webdriver.chrome.driver","../Generic/browserDriver/chromedriver");
-        //System.setProperty("webdriver.chrome.driver","/Users/mohammadsharkar/Desktop/kamal/TofaelMountSinaiFrameWork2018/Generic/browserDriver/chromedriver");
         if(useCloudEnv==true){
             if(cloudEnvName.equalsIgnoreCase("browserstack")) {
                 getCloudDriver(cloudEnvName,browserstack_username,browserstack_accesskey,os,os_version, browserName, browserVersion);
@@ -67,38 +66,39 @@ public class BaseUtil {
         driver.manage().timeouts().pageLoadTimeout(25, TimeUnit.SECONDS);
         driver.get(url);
         //driver.manage().window().maximize();
+
     }
-    public WebDriver getLocalDriver(@Optional("mac") String OS, String browserName){
+    public WebDriver getLocalDriver(@Optional("OS X") String OS, String browserName){
         if(browserName.equalsIgnoreCase("chrome")){
             if(OS.equalsIgnoreCase("OS X")){
-                System.setProperty("webdriver.chrome.driver", "../Generic/browser-driver/chromedriver");
+                System.setProperty("webdriver.chrome.driver","../Generic/browserDriver/chromedriver"); //this one used
             }else if(OS.equalsIgnoreCase("Windows")){
-                System.setProperty("webdriver.chrome.driver", "../Generic/browser-driver/chromedriver.exe");
+                System.setProperty("webdriver.chrome.driver", "..\\Generic\\browserDriver\\chromedriver.exe");
             }
             driver = new ChromeDriver();
-        } else if(browserName.equalsIgnoreCase("chrome-options")){
+            builder = new Actions(driver);
+        } else if(browserName.equalsIgnoreCase("chrome-options")){ //headless / no gui
             ChromeOptions options = new ChromeOptions();
             options.addArguments("--disable-notifications");
             if(OS.equalsIgnoreCase("OS X")){
-                System.setProperty("webdriver.chrome.driver", "/Users/mohammadsharkar/Desktop/kamal/BlueGrass/Generic/browserDriver/chromedriver");
+                System.setProperty("webdriver.chrome.driver", System.getProperty("user.dir")+"/browserDriver/chromedriver");
             }else if(OS.equalsIgnoreCase("Windows")){
-                System.setProperty("webdriver.chrome.driver", "../Generic/browser-driver/chromedriver.exe");
+                System.setProperty("webdriver.chrome.driver", "../Generic/browserDriver/chromedriver.exe");
             }
             driver = new ChromeDriver(options);
             driver.manage().deleteAllCookies();
-            builder = new Actions(driver);
+            //builder = new Actions(driver);
         }
 
         else if(browserName.equalsIgnoreCase("firefox")){
             if(OS.equalsIgnoreCase("OS X")){
-                System.setProperty("webdriver.gecko.driver", "../Generic/browser-driver/geckodriver");
+                System.setProperty("webdriver.gecko.driver", "../Generic/browserDriver/geckodriver");
             }else if(OS.equalsIgnoreCase("Windows")) {
-                System.setProperty("webdriver.gecko.driver", "../Generic/browser-driver/geckodriver.exe");
+                System.setProperty("webdriver.gecko.driver", "..\\Generic\\browserDriver\\geckodriver.exe");
             }
             driver = new FirefoxDriver();
-
         } else if(browserName.equalsIgnoreCase("ie")) {
-            System.setProperty("webdriver.ie.driver", "../Generic/browser-driver/IEDriverServer.exe");
+            System.setProperty("webdriver.ie.driver", "..\\Generic\\browserDriver\\IEDriverServer.exe");
             driver = new InternetExplorerDriver();
         }
         return driver;
@@ -149,7 +149,6 @@ public class BaseUtil {
         for (String group : result.getMethod().getGroups()) {
             ExtentTestManager.getTest().assignCategory(group);
         }
-
         if (result.getStatus() == 1) {
             ExtentTestManager.getTest().log(LogStatus.PASS, "Test Passed");
         } else if (result.getStatus() == 2) {
@@ -166,7 +165,6 @@ public class BaseUtil {
     }
 
     public static void captureScreenshot(WebDriver driver, String screenshotName){
-
         DateFormat df = new SimpleDateFormat("(MM.dd.yyyy-HH:mma)");
         Date date = new Date();
         df.format(date);
@@ -188,7 +186,6 @@ public class BaseUtil {
         calendar.setTimeInMillis(millis);
         return calendar.getTime();
     }
-
     public void waitToBeVisible(WebElement element){
         wait.until(ExpectedConditions.visibilityOf(element));
     }

@@ -17,6 +17,11 @@
         <module>BednBath</module>
         <module>Generic</module>
         <module>mtSinai</module>
+        <module>SantanderBank</module>
+        <module>FaceBook</module>
+        <module>Tmobile</module>
+        <module>Costco</module>
+        <module>CVSPharmacy</module>
     </modules>
 
     <dependencyManagement>

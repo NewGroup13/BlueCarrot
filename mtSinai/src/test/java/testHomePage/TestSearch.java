@@ -18,14 +18,14 @@ public class TestSearch extends Search {
         search = PageFactory.initElements(driver, Search.class);
     }
     @Test
-    public void testSearchWithEnter(){
+    public void testSearchENTERKeyword(){
         TestLogger.log(getClass().getSimpleName() + ": " + convertToString(new Object(){}.getClass().getEnclosingMethod().getName()));
-        searchWithENTER(keys);
+        searchByENTERKeyword(keys);
     }
     @Test
-    public void testSearchWithButton(){
+    public void testSearchBySubmitButton(){
         TestLogger.log(getClass().getSimpleName() + ": " + convertToString(new Object(){}.getClass().getEnclosingMethod().getName()));
-        searchUsingButton(keys);
+        searchBySubmitButton(keys);
     }
 }
 
