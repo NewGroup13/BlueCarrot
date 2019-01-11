@@ -27,6 +27,7 @@ public class HoverOver extends BaseUtil {
         Thread.sleep(2000);
         builder.moveToElement(aboutUs).build().perform();
         Thread.sleep(2000);
+        System.out.println(aboutUs.getText());
         List<WebElement> list = driver.findElements(By.xpath("//span[contains(text(),'About Us')]//following-sibling::div[@class='menu-content']//a"));
         int totalCount = list.size();
         System.out.println(totalCount);

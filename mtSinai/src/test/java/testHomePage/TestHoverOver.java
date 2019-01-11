@@ -24,7 +24,7 @@ public class TestHoverOver extends HoverOver {
         TestLogger.log(getClass().getSimpleName() + ": " + convertToString(new Object() {}.getClass().getEnclosingMethod().getName()));
         hoverOver.checkAboutUs();
     }
-    @Test(enabled = false)
+    @Test(enabled = true)
     public void testListOfHoverOver() throws Exception{
         TestLogger.log(getClass().getSimpleName() + ": " + convertToString(new Object() {}.getClass().getEnclosingMethod().getName()));
         hoverOver.checkListOfHoverOver();

@@ -9,11 +9,16 @@
         <module name="Amazon" />
         <module name="BednBath" />
         <module name="CitiBank" />
+        <module name="Costco" />
+        <module name="CVSPharmacy" />
+        <module name="FaceBook" />
         <module name="Generic" />
         <module name="Hbo" />
         <module name="HnM" />
         <module name="mtSinai" />
         <module name="OfficeDepot" />
+        <module name="SantanderBank" />
+        <module name="Tmobile" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
