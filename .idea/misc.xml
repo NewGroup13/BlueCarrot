@@ -9,12 +9,16 @@
     </option>
     <option name="ignoredFiles">
       <set>
+        <option value="$PROJECT_DIR$/Amazon/pom.xml" />
+        <option value="$PROJECT_DIR$/CitiBank/pom.xml" />
+        <option value="$PROJECT_DIR$/Hbo/pom.xml" />
         <option value="$PROJECT_DIR$/MountSinai/pom.xml" />
         <option value="$PROJECT_DIR$/MountSinaiTofael/pom.xml" />
+        <option value="$PROJECT_DIR$/OfficeDepot/pom.xml" />
       </set>
     </option>
   </component>
-  <component name="ProjectRootManager" version="2" languageLevel="JDK_1_8" project-jdk-name="10" project-jdk-type="JavaSDK">
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_1_8" default="false" project-jdk-name="11" project-jdk-type="JavaSDK">
     <output url="file://$PROJECT_DIR$/out" />
   </component>
 </project>
