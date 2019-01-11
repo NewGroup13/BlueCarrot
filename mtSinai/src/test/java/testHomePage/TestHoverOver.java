@@ -19,12 +19,12 @@ public class TestHoverOver extends HoverOver {
         TestLogger.log(getClass().getSimpleName() + ": " + convertToString(new Object() {}.getClass().getEnclosingMethod().getName()));
         hoverOver = PageFactory.initElements(driver, HoverOver.class);
     }
-    @Test
+    @Test(enabled = false)
     public void testAboutUs () throws InterruptedException {
         TestLogger.log(getClass().getSimpleName() + ": " + convertToString(new Object() {}.getClass().getEnclosingMethod().getName()));
         hoverOver.checkAboutUs();
     }
-    @Test
+    @Test(enabled = false)
     public void testListOfHoverOver() throws Exception{
         TestLogger.log(getClass().getSimpleName() + ": " + convertToString(new Object() {}.getClass().getEnclosingMethod().getName()));
         hoverOver.checkListOfHoverOver();
