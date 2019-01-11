@@ -37,7 +37,7 @@ import java.util.concurrent.TimeUnit;
 
 public class BaseUtil {
     public static WebDriver driver = null;
-    public static Actions builder = null; //hoover over
+    public static Actions builder = null; //hover over
     public static WebDriverWait wait = null ;  //explicit wait
     public String browserstack_username= "";
     public String browserstack_accesskey = "";

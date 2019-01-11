@@ -7,7 +7,6 @@ import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.How;
 import org.openqa.selenium.support.ui.ExpectedConditions;
 import reporting.TestLogger;
-
 import java.io.IOException;
 import java.util.ArrayList;
 import java.util.List;
@@ -39,13 +38,17 @@ public class SearchDoctor extends BaseUtil {
         searchKey.click();
     }
     public void putValueInSearchField(String value){
-        searchField.sendKeys(value);}
+        searchField.sendKeys(value);
+    }
     public void putValueInSearchFieldWithENTER(String value){
-        searchField.sendKeys(value, Keys.ENTER);}
+        searchField.sendKeys(value, Keys.ENTER);
+    }
     public void submitSearchButton(){
         submitButton.click();
     }
-    public void clearInput(){ searchField.clear(); }
+    public void clearInput(){
+        searchField.clear();
+    }
 
     public static void waitToBeVisible(){
         TestLogger.log(Search.class.getSimpleName() + ": " + convertToString(new Object(){}.getClass().getEnclosingMethod().getName()));
@@ -55,8 +58,8 @@ public class SearchDoctor extends BaseUtil {
     public void searchDoctorsBySubmitButton()throws IOException {
         List<String> doctorsList = getDoctorsList();
         for(int i=0; i<doctorsList.size(); i++) {
-            //waitToBeVisible();  //need to be here
-            clickSearchKey();  //no need, if given test failed
+            waitToBeVisible();  //need to be here
+            //clickSearchKey();  //no need, if given test failed
             putValueInSearchField(doctorsList.get(i));
             submitSearchButton();
             //clearInput();
@@ -65,8 +68,8 @@ public class SearchDoctor extends BaseUtil {
     public void searchDoctorsByENTERKeyword()throws InterruptedException, IOException {
         List<String> doctorsList = getDoctorsList();
         for(String st: doctorsList) {
-            waitToBeVisible();  //need to be here
-            clickSearchKey();  //no need
+            waitToBeVisible();
+            //clickSearchKey();  //no need
             //searchField.sendKeys(st, Keys.ENTER);
             putValueInSearchFieldWithENTER(st);  //ki hobe?
             //clearInput();

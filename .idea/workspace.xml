@@ -3,6 +3,27 @@
   <component name="ChangeListManager">
     <list default="true" id="7a8a109a-fdc8-4532-93a5-b55da8e9a8c8" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Generic/src/main/java/base/BaseUtil.java" beforeDir="false" afterPath="$PROJECT_DIR$/Generic/src/main/java/base/BaseUtil.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mtSinai/Extent-Report/ExtentReport.html" beforeDir="false" afterPath="$PROJECT_DIR$/mtSinai/Extent-Report/ExtentReport.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mtSinai/src/main/java/homePage/AboutUsHoverOver.java" beforeDir="false" afterPath="$PROJECT_DIR$/mtSinai/src/main/java/homePage/HoverOver.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mtSinai/src/main/java/homePage/Search.java" beforeDir="false" afterPath="$PROJECT_DIR$/mtSinai/src/main/java/homePage/Search.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mtSinai/src/main/java/homePage/SearchDoctor.java" beforeDir="false" afterPath="$PROJECT_DIR$/mtSinai/src/main/java/homePage/SearchDoctor.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mtSinai/src/test/java/testHomePage/TestAboutUsHoverOver.java" beforeDir="false" afterPath="$PROJECT_DIR$/mtSinai/src/test/java/testHomePage/TestHoverOver.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mtSinai/src/test/java/testHomePage/TestSearchDepartment.java" beforeDir="false" afterPath="$PROJECT_DIR$/mtSinai/src/test/java/testHomePage/TestSearchDepartment.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mtSinai/src/test/java/testHomePage/TestSearchDoctor.java" beforeDir="false" afterPath="$PROJECT_DIR$/mtSinai/src/test/java/testHomePage/TestSearchDoctor.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mtSinai/target/classes/homePage/AboutUsHoverOver$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mtSinai/target/classes/homePage/AboutUsHoverOver.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mtSinai/target/classes/homePage/SearchDoctor$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/mtSinai/target/classes/homePage/SearchDoctor$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mtSinai/target/classes/homePage/SearchDoctor.class" beforeDir="false" afterPath="$PROJECT_DIR$/mtSinai/target/classes/homePage/SearchDoctor.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mtSinai/target/test-classes/testHomePage/TestAboutUsHoverOver$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mtSinai/target/test-classes/testHomePage/TestAboutUsHoverOver$2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mtSinai/target/test-classes/testHomePage/TestAboutUsHoverOver.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mtSinai/target/test-classes/testHomePage/TestSearchDepartment$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/mtSinai/target/test-classes/testHomePage/TestSearchDepartment$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mtSinai/target/test-classes/testHomePage/TestSearchDepartment$2.class" beforeDir="false" afterPath="$PROJECT_DIR$/mtSinai/target/test-classes/testHomePage/TestSearchDepartment$2.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mtSinai/target/test-classes/testHomePage/TestSearchDepartment.class" beforeDir="false" afterPath="$PROJECT_DIR$/mtSinai/target/test-classes/testHomePage/TestSearchDepartment.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mtSinai/target/test-classes/testHomePage/TestSearchDoctor$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/mtSinai/target/test-classes/testHomePage/TestSearchDoctor$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mtSinai/target/test-classes/testHomePage/TestSearchDoctor$2.class" beforeDir="false" afterPath="$PROJECT_DIR$/mtSinai/target/test-classes/testHomePage/TestSearchDoctor$2.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mtSinai/target/test-classes/testHomePage/TestSearchDoctor.class" beforeDir="false" afterPath="$PROJECT_DIR$/mtSinai/target/test-classes/testHomePage/TestSearchDoctor.class" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -67,36 +88,37 @@
           <entry key="project.closed" value="3" />
           <entry key="project.open.time.0" value="2" />
           <entry key="project.open.time.1" value="1" />
-          <entry key="project.opened" value="3" />
+          <entry key="project.open.time.2" value="1" />
+          <entry key="project.opened" value="4" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
-          <entry key="java" value="76" />
-          <entry key="png" value="4" />
+          <entry key="java" value="103" />
+          <entry key="png" value="8" />
           <entry key="vmoptions" value="1" />
           <entry key="xml" value="3" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="Image" value="4" />
-          <entry key="JAVA" value="76" />
+          <entry key="Image" value="8" />
+          <entry key="JAVA" value="103" />
           <entry key="PLAIN_TEXT" value="1" />
           <entry key="XML" value="3" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="dummy" value="21" />
-          <entry key="java" value="1542" />
+          <entry key="dummy" value="27" />
+          <entry key="java" value="2501" />
           <entry key="xml" value="4" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="JAVA" value="1542" />
-          <entry key="PLAIN_TEXT" value="21" />
+          <entry key="JAVA" value="2501" />
+          <entry key="PLAIN_TEXT" value="27" />
           <entry key="XML" value="4" />
         </counts>
       </usages-collector>
@@ -105,10 +127,10 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/mtSinai/src/main/java/homePage/AboutUsHoverOver.java">
+        <entry file="file://$PROJECT_DIR$/mtSinai/src/main/java/homePage/HoverOver.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="340">
-              <caret line="20" column="32" lean-forward="true" selection-start-line="20" selection-start-column="32" selection-end-line="20" selection-end-column="32" />
+            <state relative-caret-position="309">
+              <caret line="68" column="29" selection-start-line="68" selection-start-column="25" selection-end-line="68" selection-end-column="29" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -117,19 +139,10 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Generic/src/main/java/base/BaseUtil.java">
+        <entry file="file://$PROJECT_DIR$/mtSinai/src/test/java/testHomePage/TestHoverOver.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="131">
-              <caret line="73" column="64" selection-start-line="73" selection-start-column="64" selection-end-line="73" selection-end-column="64" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/mtSinai/src/test/java/testHomePage/TestAboutUsHoverOver.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="214">
-              <caret line="22" column="9" selection-start-line="22" selection-start-column="9" selection-end-line="22" selection-end-column="9" />
+            <state relative-caret-position="53">
+              <caret line="13" column="45" selection-start-line="13" selection-start-column="45" selection-end-line="13" selection-end-column="45" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -187,23 +200,26 @@
         <option value="$PROJECT_DIR$/mtSinai/src/main/java/homePage/SearchDoctorGetterSetterMethod.java" />
         <option value="$PROJECT_DIR$/mtSinai/src/test/java/testHomePage/TestSearchDoctorGetterSetterMethod.java" />
         <option value="$PROJECT_DIR$/mtSinai/src/test/java/testHomePage/TestSearchDoctor2.java" />
-        <option value="$PROJECT_DIR$/mtSinai/src/test/java/testHomePage/TestSearch.java" />
         <option value="$PROJECT_DIR$/mtSinai/src/test/java/testHomePage/TestSearchDoctor12.java" />
         <option value="$PROJECT_DIR$/mtSinai/src/main/java/homePage/SearchDoctor2.java" />
         <option value="$PROJECT_DIR$/mtSinai/src/main/java/homePage/SearchDoctor1.java" />
-        <option value="$PROJECT_DIR$/mtSinai/src/test/java/testHomePage/TestSearchDepartment.java" />
         <option value="$PROJECT_DIR$/mtSinai/src/test/java/testHomePage/TestSearchDoctor1.java" />
         <option value="$PROJECT_DIR$/mtSinai/src/main/java/homePage/sd.java" />
-        <option value="$PROJECT_DIR$/mtSinai/src/test/java/testHomePage/TestSearchDoctor.java" />
-        <option value="$PROJECT_DIR$/mtSinai/src/main/java/homePage/Search.java" />
         <option value="$PROJECT_DIR$/mtSinai/src/main/java/homePage/AboutUsHooverOver.java" />
         <option value="$PROJECT_DIR$/mtSinai/src/main/java/homePage/MainPage.java" />
         <option value="$PROJECT_DIR$/mtSinai/src/test/resources/MountSinaiTestRunner.xml" />
-        <option value="$PROJECT_DIR$/mtSinai/src/main/java/homePage/SearchDepartment.java" />
-        <option value="$PROJECT_DIR$/mtSinai/src/main/java/homePage/SearchDoctor.java" />
         <option value="$PROJECT_DIR$/mtSinai/src/test/java/testHomePage/TestAboutUsHoverOver.java" />
-        <option value="$PROJECT_DIR$/Generic/src/main/java/base/BaseUtil.java" />
         <option value="$PROJECT_DIR$/mtSinai/src/main/java/homePage/AboutUsHoverOver.java" />
+        <option value="$PROJECT_DIR$/mtSinai/src/test/java/testHomePage/TestHoverOver.java" />
+        <option value="$PROJECT_DIR$/mtSinai/src/test/java/testHomePage/TestSearch.java" />
+        <option value="$PROJECT_DIR$/mtSinai/src/main/java/homePage/Search.java" />
+        <option value="$PROJECT_DIR$/mtSinai/src/test/java/testHomePage/TestSearchDoctor.java" />
+        <option value="$PROJECT_DIR$/mtSinai/src/main/java/homePage/SearchDoctor.java" />
+        <option value="$PROJECT_DIR$/mtSinai/src/main/java/homePage/SearchDepartment.java" />
+        <option value="$PROJECT_DIR$/mtSinai/src/test/java/testHomePage/TestSearchDepartment.java" />
+        <option value="$PROJECT_DIR$/Generic/src/main/java/base/BaseUtilTofael.java" />
+        <option value="$PROJECT_DIR$/Generic/src/main/java/base/BaseUtil.java" />
+        <option value="$PROJECT_DIR$/mtSinai/src/main/java/homePage/HoverOver.java" />
       </list>
     </option>
   </component>
@@ -224,9 +240,9 @@
     <option name="skipTests" value="true" />
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="6" />
+    <option name="x" value="16" />
     <option name="y" value="23" />
-    <option name="width" value="1378" />
+    <option name="width" value="1434" />
     <option name="height" value="829" />
   </component>
   <component name="ProjectInspectionProfilesVisibleTreeState">
@@ -258,9 +274,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="PackagesPane" />
-      <pane id="AndroidView" />
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -271,48 +284,7 @@
             <path>
               <item name="BlueGrass" type="b2602c69:ProjectViewProjectNode" />
               <item name="BlueGrass" type="462c0819:PsiDirectoryNode" />
-              <item name="Generic" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="BlueGrass" type="b2602c69:ProjectViewProjectNode" />
-              <item name="BlueGrass" type="462c0819:PsiDirectoryNode" />
-              <item name="Generic" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="BlueGrass" type="b2602c69:ProjectViewProjectNode" />
-              <item name="BlueGrass" type="462c0819:PsiDirectoryNode" />
-              <item name="Generic" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="BlueGrass" type="b2602c69:ProjectViewProjectNode" />
-              <item name="BlueGrass" type="462c0819:PsiDirectoryNode" />
-              <item name="Generic" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="BlueGrass" type="b2602c69:ProjectViewProjectNode" />
-              <item name="BlueGrass" type="462c0819:PsiDirectoryNode" />
-              <item name="Generic" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="base" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="BlueGrass" type="b2602c69:ProjectViewProjectNode" />
-              <item name="BlueGrass" type="462c0819:PsiDirectoryNode" />
               <item name="mtSinai" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="BlueGrass" type="b2602c69:ProjectViewProjectNode" />
-              <item name="BlueGrass" type="462c0819:PsiDirectoryNode" />
-              <item name="mtSinai" type="462c0819:PsiDirectoryNode" />
-              <item name="Extent-Report" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="BlueGrass" type="b2602c69:ProjectViewProjectNode" />
@@ -368,22 +340,17 @@
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="testHomePage" type="462c0819:PsiDirectoryNode" />
             </path>
-            <path>
-              <item name="BlueGrass" type="b2602c69:ProjectViewProjectNode" />
-              <item name="BlueGrass" type="462c0819:PsiDirectoryNode" />
-              <item name="mtSinai" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-              <item name="resources" type="462c0819:PsiDirectoryNode" />
-            </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="AndroidView" />
+      <pane id="Scope" />
+      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1547056864235" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1547169917856" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="project.structure.last.edited" value="Project" />
     <property name="project.structure.proportion" value="0.0" />
@@ -418,8 +385,8 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="TestNG.TestAboutUsHoverOver.testAboutUs">
-    <configuration name="TestAboutUsHoverOver.testAboutUs" type="TestNG" factoryName="TestNG" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="TestNG.TestHoverOver.testHover">
+    <configuration name="TestHoverOver.testAboutUs" type="TestNG" factoryName="TestNG" temporary="true" nameIsGenerated="true">
       <module name="mtSinai" />
       <extension name="coverage">
         <pattern>
@@ -428,8 +395,26 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="testHomePage" />
-      <option name="MAIN_CLASS_NAME" value="testHomePage.TestAboutUsHoverOver" />
+      <option name="MAIN_CLASS_NAME" value="testHomePage.TestHoverOver" />
       <option name="METHOD_NAME" value="testAboutUs" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TestHoverOver.testHover" type="TestNG" factoryName="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="mtSinai" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="testHomePage.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="testHomePage" />
+      <option name="MAIN_CLASS_NAME" value="testHomePage.TestHoverOver" />
+      <option name="METHOD_NAME" value="testHover" />
       <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
@@ -473,7 +458,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TestSearchDoctor.testSearchDoctorsByENTERKeyword" type="TestNG" factoryName="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="TestSearch.testSearchENTERKeyword" type="TestNG" factoryName="TestNG" temporary="true" nameIsGenerated="true">
       <module name="mtSinai" />
       <extension name="coverage">
         <pattern>
@@ -482,26 +467,8 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="testHomePage" />
-      <option name="MAIN_CLASS_NAME" value="testHomePage.TestSearchDoctor" />
-      <option name="METHOD_NAME" value="testSearchDoctorsByENTERKeyword" />
-      <option name="TEST_OBJECT" value="METHOD" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="TestSearchDoctor.testSearchDoctorsBySubmitButton" type="TestNG" factoryName="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="mtSinai" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="testHomePage.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="testHomePage" />
-      <option name="MAIN_CLASS_NAME" value="testHomePage.TestSearchDoctor" />
-      <option name="METHOD_NAME" value="testSearchDoctorsBySubmitButton" />
+      <option name="MAIN_CLASS_NAME" value="testHomePage.TestSearch" />
+      <option name="METHOD_NAME" value="testSearchENTERKeyword" />
       <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
@@ -510,19 +477,19 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="TestNG.TestSearchDoctor.testSearchDoctorsBySubmitButton" />
-      <item itemvalue="TestNG.TestSearchDoctor.testSearchDoctorsByENTERKeyword" />
+      <item itemvalue="TestNG.TestSearch.testSearchENTERKeyword" />
       <item itemvalue="TestNG.TestSearchDepartment.testSearchDepartmentBySubmitButton" />
       <item itemvalue="TestNG.TestSearchDepartment.testSearchDepartmentByENTERKeyword" />
-      <item itemvalue="TestNG.TestAboutUsHoverOver.testAboutUs" />
+      <item itemvalue="TestNG.TestHoverOver.testAboutUs" />
+      <item itemvalue="TestNG.TestHoverOver.testHover" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="TestNG.TestAboutUsHoverOver.testAboutUs" />
+        <item itemvalue="TestNG.TestHoverOver.testHover" />
+        <item itemvalue="TestNG.TestHoverOver.testAboutUs" />
+        <item itemvalue="TestNG.TestSearch.testSearchENTERKeyword" />
         <item itemvalue="TestNG.TestSearchDepartment.testSearchDepartmentByENTERKeyword" />
         <item itemvalue="TestNG.TestSearchDepartment.testSearchDepartmentBySubmitButton" />
-        <item itemvalue="TestNG.TestSearchDoctor.testSearchDoctorsByENTERKeyword" />
-        <item itemvalue="TestNG.TestSearchDoctor.testSearchDoctorsBySubmitButton" />
       </list>
     </recent_temporary>
   </component>
@@ -540,41 +507,42 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="TestAboutUsHoverOver_testAboutUs - 2019.01.09 at 12h 49m 48s.xml">
-      <configuration name="TestAboutUsHoverOver.testAboutUs" configurationId="TestNG" />
+    <history-entry file="TestSearch_testSearchENTERKeyword - 2019.01.10 at 19h 14m 25s.xml">
+      <configuration name="TestSearch.testSearchENTERKeyword" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="TestAboutUsHoverOver_testAboutUs - 2019.01.09 at 12h 50m 20s.xml">
-      <configuration name="TestAboutUsHoverOver.testAboutUs" configurationId="TestNG" />
+    <history-entry file="TestSearchDoctor_testSearchDoctorsBySubmitButton - 2019.01.10 at 19h 30m 08s.xml">
+      <configuration name="TestSearchDoctor.testSearchDoctorsBySubmitButton" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="TestAboutUsHoverOver_testAboutUs - 2019.01.09 at 12h 50m 59s.xml">
-      <configuration name="TestAboutUsHoverOver.testAboutUs" configurationId="TestNG" />
+    <history-entry file="TestSearchDoctor_testSearchDoctorsBySubmitButton - 2019.01.10 at 19h 30m 48s.xml">
+      <configuration name="TestSearchDoctor.testSearchDoctorsBySubmitButton" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="TestAboutUsHoverOver_testAboutUs - 2019.01.09 at 12h 53m 48s.xml">
-      <configuration name="TestAboutUsHoverOver.testAboutUs" configurationId="TestNG" />
+    <history-entry file="TestSearchDoctor_testSearchDoctorsByENTERKeyword - 2019.01.10 at 19h 34m 38s.xml">
+      <configuration name="TestSearchDoctor.testSearchDoctorsByENTERKeyword" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="TestAboutUsHoverOver_testAboutUs - 2019.01.09 at 12h 54m 55s.xml">
-      <configuration name="TestAboutUsHoverOver.testAboutUs" configurationId="TestNG" />
+    <history-entry file="TestSearchDoctor_testSearchDoctorsBySubmitButton - 2019.01.10 at 19h 35m 45s.xml">
+      <configuration name="TestSearchDoctor.testSearchDoctorsBySubmitButton" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="TestAboutUsHoverOver_testAboutUs - 2019.01.09 at 12h 55m 32s.xml">
-      <configuration name="TestAboutUsHoverOver.testAboutUs" configurationId="TestNG" />
+    <history-entry file="TestSearchDepartment_testSearchDepartmentBySubmitButton - 2019.01.10 at 19h 45m 25s.xml">
+      <configuration name="TestSearchDepartment.testSearchDepartmentBySubmitButton" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="TestAboutUsHoverOver_testAboutUs - 2019.01.09 at 12h 56m 31s.xml">
-      <configuration name="TestAboutUsHoverOver.testAboutUs" configurationId="TestNG" />
+    <history-entry file="TestSearchDepartment_testSearchDepartmentByENTERKeyword - 2019.01.10 at 19h 45m 56s.xml">
+      <configuration name="TestSearchDepartment.testSearchDepartmentByENTERKeyword" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="TestAboutUsHoverOver_testAboutUs - 2019.01.09 at 12h 56m 54s.xml">
-      <configuration name="TestAboutUsHoverOver.testAboutUs" configurationId="TestNG" />
+    <history-entry file="TestSearch_testSearchENTERKeyword - 2019.01.10 at 19h 52m 13s.xml">
+      <configuration name="TestSearch.testSearchENTERKeyword" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="TestAboutUsHoverOver_testAboutUs - 2019.01.09 at 12h 57m 20s.xml">
-      <configuration name="TestAboutUsHoverOver.testAboutUs" configurationId="TestNG" />
+    <history-entry file="TestHoverOver_testAboutUs - 2019.01.10 at 20h 17m 45s.xml">
+      <configuration name="TestHoverOver.testAboutUs" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="TestAboutUsHoverOver_testAboutUs - 2019.01.09 at 12h 58m 57s.xml">
-      <configuration name="TestAboutUsHoverOver.testAboutUs" configurationId="TestNG" />
+    <history-entry file="TestHoverOver_testAboutUs - 2019.01.10 at 20h 18m 19s.xml">
+      <configuration name="TestHoverOver.testAboutUs" configurationId="TestNG" />
     </history-entry>
   </component>
   <component name="ToolWindowManager">
-    <frame x="6" y="23" width="1378" height="829" extended-state="0" />
+    <frame x="16" y="23" width="1434" height="829" extended-state="0" />
+    <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.18263473" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.24856322" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -583,12 +551,12 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32971507" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.2862958" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.17096336" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.39891452" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="7" visible="true" weight="0.32971507" />
+      <window_info anchor="bottom" id="Terminal" order="7" weight="0.32971507" />
       <window_info anchor="bottom" id="Event Log" order="8" side_tool="true" />
       <window_info anchor="bottom" id="Version Control" order="9" />
       <window_info anchor="bottom" id="Messages" order="10" weight="0.32971507" />
@@ -636,27 +604,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/BednBath/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="571">
-          <caret line="44" column="10" selection-start-line="44" selection-start-column="10" selection-end-line="44" selection-end-column="10" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/CitiBank/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="748">
-          <caret line="44" column="10" selection-start-line="44" selection-start-column="10" selection-end-line="44" selection-end-column="10" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Amazon/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="748">
-          <caret line="44" column="10" selection-start-line="44" selection-start-column="10" selection-end-line="44" selection-end-column="10" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/MountSinai/src/test/resources/MountSinaiTestRunner.xml" />
     <entry file="file://$PROJECT_DIR$/MountSinai/src/test/java/testHomePage/TestSearch.java" />
     <entry file="file://$PROJECT_DIR$/MountSinai/src/main/java/homePage/Search.java" />
@@ -724,9 +671,6 @@
           <caret line="3" column="34" selection-start-line="3" selection-start-column="34" selection-end-line="3" selection-end-column="34" />
         </state>
       </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Hbo/src/main/java/homePage/MainPage.java">
-      <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/BednBath/src/main/java/homePage/MainPage.java">
       <provider selected="true" editor-type-id="text-editor" />
@@ -798,29 +742,13 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/mtSinai/src/main/java/homePage/SearchDoctor1.java" />
-    <entry file="file://$PROJECT_DIR$/mtSinai/screenshots/searchDoctors (01.08.2019-09:31AM).png">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/mtSinai/screenshots/searchDoctors (01.08.2019-09:39AM).png">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/mtSinai/screenshots/searchDoctors (01.08.2019-09:40AM).png">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/mtSinai/screenshots/searchDoctors (01.08.2019-09:26AM).png">
       <provider selected="true" editor-type-id="images" />
     </entry>
     <entry file="file://$APPLICATION_CONFIG_DIR$/idea.vmoptions">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="272">
           <caret line="16" column="49" selection-start-line="16" selection-start-column="49" selection-end-line="16" selection-end-column="49" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/mtSinai/src/main/java/homePage/MainPage.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="248">
-          <caret line="30" column="2" selection-start-line="30" selection-start-column="2" selection-end-line="31" selection-end-column="37" />
         </state>
       </provider>
     </entry>
@@ -831,37 +759,38 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/mtSinai/src/test/java/testHomePage/TestMainPage.java">
+    <entry file="file://$PROJECT_DIR$/Hbo/src/main/java/homePage/MainPage.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="172">
-          <caret line="309" column="22" lean-forward="true" selection-start-line="309" selection-start-column="16" selection-end-line="309" selection-end-column="35" />
+        <state relative-caret-position="17">
+          <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/seleniumhq/selenium/selenium-support/3.14.0/selenium-support-3.14.0-sources.jar!/org/openqa/selenium/support/ui/Select.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="387">
+          <caret line="81" column="7" selection-start-line="79" selection-start-column="31" selection-end-line="81" selection-end-column="7" />
           <folding>
-            <element signature="imports" expanded="true" />
+            <element signature="e#2311#2312#0" expanded="true" />
+            <element signature="e#2370#2371#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/mtSinai/src/test/java/testHomePage/TestSearch.java">
+    <entry file="file://$PROJECT_DIR$/mtSinai/src/test/java/testHomePage/TestMainPage.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="374">
-          <caret line="26" selection-start-line="26" selection-end-line="27" />
+        <state relative-caret-position="357">
+          <caret line="21" column="5" lean-forward="true" selection-start-line="17" selection-start-column="4" selection-end-line="21" selection-end-column="5" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/mtSinai/src/test/java/testHomePage/TestSearchDoctor.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="374">
-          <caret line="22" column="1" lean-forward="true" selection-start-line="22" selection-start-column="1" selection-end-line="22" selection-end-column="1" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/mtSinai/src/main/java/homePage/Search.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="135">
-          <caret line="19" column="9" selection-start-line="19" selection-start-column="9" selection-end-line="19" selection-end-column="9" />
+        <state relative-caret-position="323">
+          <caret line="19" column="8" lean-forward="true" selection-start-line="19" selection-start-column="8" selection-end-line="19" selection-end-column="8" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -870,18 +799,18 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/mtSinai/src/test/java/testHomePage/TestSearchDepartment.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="391">
-          <caret line="23" column="1" lean-forward="true" selection-start-line="23" selection-start-column="1" selection-end-line="23" selection-end-column="1" />
+        <state relative-caret-position="340">
+          <caret line="20" column="8" lean-forward="true" selection-start-line="20" selection-start-column="8" selection-end-line="20" selection-end-column="8" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/mtSinai/src/main/java/homePage/SearchDepartment.java">
+    <entry file="file://$PROJECT_DIR$/mtSinai/src/main/java/homePage/Search.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="359">
-          <caret line="72" column="20" selection-start-line="72" selection-start-column="20" selection-end-line="72" selection-end-column="28" />
+        <state relative-caret-position="452">
+          <caret line="32" column="43" selection-start-line="32" selection-start-column="43" selection-end-line="32" selection-end-column="43" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -890,18 +819,65 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/mtSinai/src/main/java/homePage/SearchDoctor.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="275">
-          <caret line="70" column="12" lean-forward="true" selection-start-line="70" selection-start-column="12" selection-end-line="70" selection-end-column="12" />
+        <state relative-caret-position="258">
+          <caret line="43" column="46" selection-start-line="43" selection-start-column="36" selection-end-line="43" selection-end-column="46" />
           <folding>
             <element signature="imports" expanded="true" />
+            <element signature="e#939#947#0" expanded="true" />
+            <element signature="e#1400#1401#0" expanded="true" />
+            <element signature="e#1433#1434#0" expanded="true" />
+            <element signature="e#1486#1487#0" expanded="true" />
+            <element signature="e#1529#1530#0" expanded="true" />
+            <element signature="e#1591#1592#0" expanded="true" />
+            <element signature="e#1646#1647#0" expanded="true" />
+            <element signature="e#1750#1751#0" expanded="true" />
+            <element signature="e#1785#1786#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/mtSinai/src/test/java/testHomePage/TestAboutUsHoverOver.java">
+    <entry file="file://$PROJECT_DIR$/mtSinai/screenshots/searchDoctors (01.08.2019-09:26AM).png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mtSinai/screenshots/searchDoctors (01.08.2019-09:31AM).png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mtSinai/screenshots/searchDoctors (01.08.2019-09:39AM).png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mtSinai/screenshots/searchDoctors (01.08.2019-09:55AM).png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mtSinai/src/test/java/testHomePage/TestSearch.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="214">
-          <caret line="22" column="9" selection-start-line="22" selection-start-column="9" selection-end-line="22" selection-end-column="9" />
+        <state relative-caret-position="299">
+          <caret line="22" column="25" selection-start-line="22" selection-start-column="8" selection-end-line="22" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mtSinai/src/main/java/homePage/SearchDepartment.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="300">
+          <caret line="59" column="51" lean-forward="true" selection-start-line="59" selection-start-column="51" selection-end-line="59" selection-end-column="51" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#1347#1348#0" expanded="true" />
+            <element signature="e#1401#1402#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Generic/src/main/java/base/CommnAPI.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="2" column="21" selection-start-line="2" selection-start-column="21" selection-end-line="2" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mtSinai/src/main/java/homePage/MainPage.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-3383">
+          <caret line="13" column="37" lean-forward="true" selection-start-line="13" selection-start-column="37" selection-end-line="13" selection-end-column="37" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -910,15 +886,25 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Generic/src/main/java/base/BaseUtil.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="131">
-          <caret line="73" column="64" selection-start-line="73" selection-start-column="64" selection-end-line="73" selection-end-column="64" />
+        <state relative-caret-position="216">
+          <caret line="78" column="19" selection-start-line="78" selection-start-column="12" selection-end-line="78" selection-end-column="19" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/mtSinai/src/main/java/homePage/AboutUsHoverOver.java">
+    <entry file="file://$PROJECT_DIR$/mtSinai/src/test/java/testHomePage/TestHoverOver.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="340">
-          <caret line="20" column="32" lean-forward="true" selection-start-line="20" selection-start-column="32" selection-end-line="20" selection-end-column="32" />
+        <state relative-caret-position="53">
+          <caret line="13" column="45" selection-start-line="13" selection-start-column="45" selection-end-line="13" selection-end-column="45" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mtSinai/src/main/java/homePage/HoverOver.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="309">
+          <caret line="68" column="29" selection-start-line="68" selection-start-column="25" selection-end-line="68" selection-end-column="29" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
